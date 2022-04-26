@@ -15,7 +15,17 @@
       h2 {
         margin: 0;
         color: white;
-        text-align: center;
+      }
+    }
+
+    @media all and(max-width: 1080px) {
+      .err-title {
+        font-size: 30px;
+        margin-left: 70px;
+      }
+
+      .err-phrase {
+        margin-left: 70px;
       }
     }
 

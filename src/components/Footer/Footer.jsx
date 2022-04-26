@@ -19,8 +19,7 @@ const Footer = () => {
       <hr />
       <div className="footer-bottom">
         <p>
-          © 2022 Sayakat, Inc. All Rights Reserved. Online Store Rules & Privacy
-          Policy
+          © 2022 Sayakat, All rights to photos belong to the owner Albert Dros
         </p>
         <img
           src="https://shop.tumar.com/wp-content/uploads/2019/02/payments.png"

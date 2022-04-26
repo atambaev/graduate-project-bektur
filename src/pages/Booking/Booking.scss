@@ -1,0 +1,22 @@
+.booking-img {
+  background-image: url("https://static.wixstatic.com/media/846d71_482d14e93afc4bfb92702ba7e5a2532e~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_482d14e93afc4bfb92702ba7e5a2532e~mv2_d_1920_1281_s_2.webp");
+  // height: 100vh;
+  background-size: cover;
+}
+
+.booking-outer {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.prod-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: normal;
+}
+
+// .search-filter {
+//   display: flex;
+//   justify-content: space-evenly;
+// }

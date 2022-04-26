@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Header from "../components/Header/Header";
-import "./pagesCSS/ErrorPage.scss";
+import Header from "../../components/Header/Header";
+import "./ErrorPage.scss";
 
 const ErrorPage = () => {
   return (
