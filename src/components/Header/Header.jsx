@@ -14,14 +14,14 @@ const Header = () => {
             SAYAKAT
           </NavLink>
           <NavLink className="nav-item" to="/discover">
-            Discover
+            About
           </NavLink>
           <NavLink className="nav-item" to="/booking">
             Booking
           </NavLink>
-          <NavLink className="nav-item" to="/trips">
+          {/* <NavLink className="nav-item" to="/trips">
             My trips
-          </NavLink>
+          </NavLink> */}
           <NavLink className="nav-item" to="/wishlist">
             Wishlist
           </NavLink>

@@ -3,35 +3,155 @@
     {
       "title": "Kyzyl-Asker",
       "region": "chuy",
-      "date": "12.05.2022-24/05.2022",
-      "price": 200,
+      "date": "12.05.2022-24.05.2022",
+      "price": 18000,
       "id": 1,
-      "type": "Batken",
+      "type": "Osh",
       "img": "https://static.wixstatic.com/media/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.webp",
-      "description": "On the way to the Kyzyl Asker valley we passed this spectacular landscape with a little yurt in front of it. Local families spend the whole summer in just their yurt and the wilderness to take care of the cattle. This was one of the last forms of civilisation we saw before going to Kyzyl Asker. "
+      "description": "On the way to the Kyzyl Asker valley we passed this spectacular landscape with a little yurt in front of it. Local families spend the whole summer in just their yurt and the wilderness to take care of the cattle. This was one of the last forms of civilisation we saw before going to Kyzyl Asker. ",
+      "count": 3
     },
     {
       "title": "Barskoon",
       "type": "Ysyk-Köl",
-      "price": 345,
+      "price": 9000,
       "description": "After crossing Barskoon valley we crossed this pass with close to 4000m altitude. At the end of the afternoon there was some last light hitting the valley. We decided to camp here before we continued our way. ",
       "img": "https://static.wixstatic.com/media/846d71_2a87b9c5dec44ae6a2393a267bdcb969~mv2.jpg/v1/fill/w_1480,h_1480,al_c,q_90/846d71_2a87b9c5dec44ae6a2393a267bdcb969~mv2.webp",
-      "id": 2
+      "id": 2,
+      "date": "26.05.2022-31.05.2022",
+      "count": 2
     },
     {
       "title": "Toktogul",
       "type": "Jalal-Abad",
-      "price": 980,
-      "description": "We camped at this lake close to Kyzyl Asker (on the left) with spectacular mountains around. On some rare moments the lake was completely still. The skull you see is from a Marco Polo sheep. They’re very big sheep that can only be found in some high altitude regions of Central Asia.  ",
+      "price": 11800,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
       "img": "https://static.wixstatic.com/media/846d71_dafbbfc2ace54c768906a09d01b544f8~mv2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_dafbbfc2ace54c768906a09d01b544f8~mv2.webp",
-      "id": 3
+      "id": 3,
+      "date": "16.06.2022-22.05.2022",
+      "count": 1
     },
     {
-      "title": "Road to LeninPeak",
+      "title": "Road to Lenin Peak",
       "type": "Osh",
       "price": 23000,
-      "description": "Spectacular sunset colours above Kyzyl Asker peak (5842m) with an endless sea of wildflowers.",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
       "img": "https://static.wixstatic.com/media/846d71_b79219b09a294b80b845ff7f638a49b7~mv2.jpg/v1/fill/w_1480,h_997,al_c,q_90/846d71_b79219b09a294b80b845ff7f638a49b7~mv2.webp",
+      "id": 4,
+      "date": "08.07.2022-13.07.2022",
+      "count": 1
+    },
+    {
+      "title": "Skazka Canyon",
+      "type": "Ysyk-Köl",
+      "price": 5500,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "https://static.wixstatic.com/media/846d71_44c408e5b3d34dfb9538e757cd4aa3bc~mv2_d_1920_1439_s_2.jpg/v1/fill/w_1480,h_1109,al_c,q_90/846d71_44c408e5b3d34dfb9538e757cd4aa3bc~mv2_d_1920_1439_s_2.webp",
+      "id": 5,
+      "date": "01.05.2022-02.05.2022",
+      "count": 1
+    },
+    {
+      "title": "Chunkurchak",
+      "type": "Chüy",
+      "price": 4000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "12.05.2022-24.05.2022",
+      "id": 6,
+      "count": 1
+    },
+    {
+      "title": "Kadamjay",
+      "type": "Batken",
+      "price": 11000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "26.05.2022-31.05.2022",
+      "id": 7,
+      "count": 1
+    },
+    {
+      "title": "Arslanbab",
+      "type": "Jalal-Abad",
+      "price": 17000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "08.07.2022-13.07.2022",
+      "id": 8,
+      "count": 1
+    },
+    {
+      "title": "Kemin",
+      "type": "Chüy",
+      "price": 13000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "01.05.2022-10.05.2022",
+      "id": 9,
+      "count": 1
+    },
+    {
+      "title": "Lake Ay-Kol",
+      "type": "Batken",
+      "price": 15500,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "06.07.2022-12.07.2022",
+      "id": 10,
+      "count": 1
+    },
+    {
+      "title": "Bakay-Ata",
+      "type": "Talas",
+      "price": 13700,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "08.07.2022-13.07.2022",
+      "id": 11,
+      "count": 1
+    },
+    {
+      "title": "Ak-Say",
+      "type": "Naryn",
+      "price": 24000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "17.07.2022-23.07.2022",
+      "id": 12,
+      "count": 1
+    },
+    {
+      "title": "Kara-Buura",
+      "type": "Talas",
+      "price": 14500,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "08.07.2022-13.07.2022",
+      "id": 13,
+      "count": 2
+    },
+    {
+      "title": "Son-Kol",
+      "type": "Naryn",
+      "price": 19000,
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
+      "img": "",
+      "date": "18.07.2022-27.07.2022",
+      "id": 14,
+      "count": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "comment": "bvbnm",
+      "user": "admin@gmail.com",
+      "prodId": "1",
       "id": 4
     }
   ]

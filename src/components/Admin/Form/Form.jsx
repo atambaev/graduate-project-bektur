@@ -15,6 +15,7 @@ const initValues = {
   price: "",
   description: "",
   img: "",
+  count: 0,
 };
 
 const Form = ({ saveValues, compForEdit, forEditVal, getOneTrip }) => {
@@ -68,7 +69,7 @@ const Form = ({ saveValues, compForEdit, forEditVal, getOneTrip }) => {
           id="outlined-basic"
           label="Title"
           variant="outlined"
-          style={{ margin: "2rem 0" }}
+          style={{ margin: "1rem 0" }}
         />
         <FormControl fullWidth>
           <InputLabel id="demo-simple-select-label">Region</InputLabel>
@@ -97,7 +98,16 @@ const Form = ({ saveValues, compForEdit, forEditVal, getOneTrip }) => {
           id="outlined-basic"
           label="Price"
           variant="outlined"
-          style={{ margin: "2rem 0" }}
+          style={{ margin: "1rem 0" }}
+        />
+        <TextField
+          name="date"
+          value={inpValues.date}
+          onChange={(e) => handleChange(e)}
+          id="outlined-basic"
+          label="Date"
+          variant="outlined"
+          style={{ margin: "1rem 0" }}
         />
         <TextField
           name="img"
@@ -116,7 +126,7 @@ const Form = ({ saveValues, compForEdit, forEditVal, getOneTrip }) => {
           variant="outlined"
           multiline
           rows={3}
-          style={{ margin: "2rem 0" }}
+          style={{ margin: "1rem 0" }}
         />
         <Button type="submit" variant="contained">
           Submit

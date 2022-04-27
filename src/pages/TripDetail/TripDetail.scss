@@ -1,0 +1,26 @@
+.detail-outer {
+  background-image: url("https://static.wixstatic.com/media/846d71_07ab748c99dc45f6b6a994e2ff33ecfd~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_07ab748c99dc45f6b6a994e2ff33ecfd~mv2_d_1920_1281_s_2.webp");
+  //   height: 100vh;
+  background-size: cover;
+
+  .prod-detail {
+    display: flex;
+    justify-content: center;
+
+    .info {
+      color: white;
+      text-align: center;
+      border: 2px solid white;
+      border-radius: 10px;
+      background-color: rgba(255, 255, 255, 0.239);
+      padding: 10px;
+    }
+
+    .comment-box {
+      background-color: rgba(255, 255, 255, 0.239);
+      color: white;
+      border: 2px solid white;
+      font-family: "Poppins", sans-serif;
+    }
+  }
+}

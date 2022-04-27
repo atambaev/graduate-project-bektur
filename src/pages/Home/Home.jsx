@@ -1,4 +1,4 @@
-import React from "react";
+import React, { createRef } from "react";
 import Header from "../../components/Header/Header";
 import "./Home.scss";
 import { Link } from "react-router-dom";
@@ -24,7 +24,7 @@ const Home = () => {
             <h2>Batken</h2>
           </div>
           <div className="batken-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>Good choice!</span>
@@ -40,7 +40,7 @@ const Home = () => {
             <h2>Chüy</h2>
           </div>
           <div className="chuy-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>Well, we've to visit!</span>
@@ -56,7 +56,7 @@ const Home = () => {
             <h2>Jalal-Abad</h2>
           </div>
           <div className="abad-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>Great choice!</span>
@@ -72,7 +72,7 @@ const Home = () => {
             <h2>Naryn</h2>
           </div>
           <div className="naryn-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>Let's go! Kettik!</span>
@@ -88,7 +88,7 @@ const Home = () => {
             <h2>Osh</h2>
           </div>
           <div className="osh-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>South? That's amazing!</span>
@@ -104,7 +104,7 @@ const Home = () => {
             <h2>Talas</h2>
           </div>
           <div className="talas-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>It's not far away!</span>
@@ -120,7 +120,7 @@ const Home = () => {
             <h2>Ysyk-Köl</h2>
           </div>
           <div className="ik-btn">
-            <Link to="/discover">
+            <Link to="/booking">
               <button class="button-57" role="button">
                 <span class="text">Discover</span>
                 <span>You won't regret!</span>

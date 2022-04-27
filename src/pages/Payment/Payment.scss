@@ -1,0 +1,37 @@
+.payment-outer {
+  background-image: url("https://static.wixstatic.com/media/846d71_ad9b149633b5482a89c7286d71cca925~mv2_d_1920_1439_s_2.jpg/v1/fill/w_1480,h_1109,al_c,q_90/846d71_ad9b149633b5482a89c7286d71cca925~mv2_d_1920_1439_s_2.webps");
+  background-size: cover;
+  height: 100vh;
+
+  .payment {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    .credit-card {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+
+      .card-inp {
+        display: block;
+        margin: 10px;
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        background-color: rgba(255, 255, 255, 0.622);
+        border-radius: 10px;
+        border: 2px solid white;
+        height: 40px;
+        width: 200px;
+      }
+    }
+
+    .card-btn {
+      background-color: rgba(255, 255, 255, 0.354);
+      border: 2px solid white;
+      border-radius: 10px;
+    }
+  }
+}

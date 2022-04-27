@@ -3,6 +3,7 @@ import {
   onAuthStateChanged,
   signInWithEmailAndPassword,
   signOut,
+  sendPasswordResetEmail,
 } from "firebase/auth";
 import React, { createContext, useContext, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
@@ -123,6 +124,15 @@ const AuthContextProvider = ({ children }) => {
     authListener();
   }, []);
 
+  const resetPass = async (email) => {
+    try {
+      let { user } = await sendPasswordResetEmail(auth, email);
+    } catch (error) {
+      console.log(error.code);
+      console.log(error.message);
+    }
+  };
+
   return (
     <authContext.Provider
       value={{
@@ -130,6 +140,7 @@ const AuthContextProvider = ({ children }) => {
         registerUser,
         logOutUser,
         loginUser,
+        resetPass,
       }}
     >
       {children}

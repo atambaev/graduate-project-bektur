@@ -69,6 +69,7 @@ const TripList = () => {
         <div>
           <div className="search-filter">
             <LiveSearch />
+            <br />
             <Filter
               type={type}
               setType={setType}

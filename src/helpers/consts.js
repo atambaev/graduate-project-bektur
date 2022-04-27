@@ -1,5 +1,5 @@
 export const API = "http://localhost:8000/trips";
-export const API2 = "http://localhost:8000/comment";
+export const API2 = "http://localhost:8000/comments";
 
 export const ACTIONS = {
   GET_TRIPS: "GET_TRIPS",

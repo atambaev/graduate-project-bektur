@@ -12,7 +12,6 @@ import { IconButton } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import AddIcon from "@mui/icons-material/Add";
 import RemoveIcon from "@mui/icons-material/Remove";
-import RemoveShoppingCartOutlinedIcon from "@mui/icons-material/RemoveShoppingCartOutlined";
 import { useCart } from "../../contexts/CartContextProvider";
 import Header from "../../components/Header/Header";
 
@@ -31,7 +30,7 @@ const Cart = () => {
         Previous page
       </p>
       <Container>
-        <h1 className="page-title">SHOPPING CART</h1>
+        <h1 className="page-title">TRIP CART</h1>
         {cart?.trips?.length > 0 ? (
           <>
             <TableContainer component={Paper}>
@@ -113,7 +112,7 @@ const Cart = () => {
               <Typography variant="h5">
                 Total price: {cart.totalPrice} KGS
                 <br />
-                <NavLink style={{ textDecoration: "none" }} to="/credit">
+                <NavLink style={{ textDecoration: "none" }} to="/payment">
                   <Button className="btn-all" variant="outlined">
                     Order now for {cart.totalPrice} KGS
                   </Button>
@@ -123,10 +122,11 @@ const Cart = () => {
           </>
         ) : (
           <div style={{ textAlign: "center" }}>
-            <RemoveShoppingCartOutlinedIcon
+            {/* <RemoveShoppingCartOutlinedIcon
               color="action"
               sx={{ fontSize: 100 }}
-            />
+            /> */}
+            <h2>Cart is empty</h2>
             <br />
             <br />
             <Button
@@ -135,7 +135,7 @@ const Cart = () => {
               component={Link}
               to="/booking"
             >
-              Return to shop
+              Return to trips
             </Button>
           </div>
         )}

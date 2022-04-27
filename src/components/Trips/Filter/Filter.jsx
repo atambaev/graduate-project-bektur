@@ -42,9 +42,6 @@ const Filter = ({ type, setType, setPage, handleReset }) => {
         </FormControl>
       </Box>
       <br />
-      {/* <Button className="btn-all" onClick={handleReset} variant="outlined">
-        Reset
-      </Button> */}
     </>
   );
 };

@@ -35,9 +35,26 @@
   @media all and(max-width: 505px) {
     .discover-title {
       font-size: 30px;
+      margin-top: 30px;
     }
 
     .discover-greet {
+      font-size: 12px;
+    }
+  }
+}
+
+.about {
+  background-image: url("https://static.wixstatic.com/media/846d71_ad41c305b1a942e9ac803400f8daab44~mv2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_ad41c305b1a942e9ac803400f8daab44~mv2.webp");
+  height: 100vh;
+  background-size: cover;
+  color: white;
+  font-weight: 200;
+  display: flex;
+  justify-content: center;
+
+  @media all and(max-width: 375px) {
+    .about-text {
       font-size: 12px;
     }
   }

@@ -6,4 +6,11 @@
     display: flex;
     justify-content: space-evenly;
   }
+
+  @media all and(max-width: 405px) {
+    .search-filter {
+      display: inline-block;
+      justify-content: space-evenly;
+    }
+  }
 }

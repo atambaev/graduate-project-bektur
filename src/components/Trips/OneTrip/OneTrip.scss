@@ -10,9 +10,21 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    gap: 10px;
 
     .cart-img {
       border-radius: 20px;
+    }
+
+    .content {
+      // margin-left: 10px;
+    }
+  }
+
+  @media all and(max-width: 1024px) {
+    .cart {
+      display: inline-block;
+      text-align: center;
     }
   }
 }

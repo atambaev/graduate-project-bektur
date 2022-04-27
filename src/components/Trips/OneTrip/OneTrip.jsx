@@ -1,13 +1,10 @@
 import React, { useState } from "react";
 import { useCart } from "../../../contexts/CartContextProvider";
 import { useFav } from "../../../contexts/FavContextProvider";
-import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
-import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
-import Typography from "@mui/material/Typography";
-import { Grid, IconButton } from "@mui/material";
+import { IconButton } from "@mui/material";
 import { Link } from "react-router-dom";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import "./OneTrip.scss";
@@ -42,9 +39,7 @@ const OneTrip = ({ item }) => {
             <div>
               <p>{item.title}</p>
             </div>
-            <div>
-              <p>{item.price} KGS</p>
-            </div>
+            <div>{/* <p>{item.price} KGS</p> */}</div>
             <div>
               <p>Region: {item.type}</p>
             </div>
@@ -76,7 +71,13 @@ const OneTrip = ({ item }) => {
                 <FavoriteIcon /> {countLike}
               </IconButton>
 
-              <Button component={Link} to={`detail/${item.id}`} size="small">
+              <Button
+                className="btn-all"
+                variant="outlined"
+                component={Link}
+                to={`detail/${item.id}`}
+                size="small"
+              >
                 More about trip
               </Button>
             </CardActions>

@@ -91,6 +91,15 @@ const TripContextProvider = ({ children }) => {
     }
   };
 
+  const saveView = async (editedTrip) => {
+    try {
+      let res = await axios.patch(`${API}/${editedTrip.id}`, editedTrip);
+      getTrips();
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
   return (
     <tripContext.Provider
       value={{
@@ -102,6 +111,7 @@ const TripContextProvider = ({ children }) => {
         deleteTrip,
         getOneTrip,
         saveEditedTrip,
+        saveView,
       }}
     >
       {children}

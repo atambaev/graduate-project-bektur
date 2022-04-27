@@ -14,16 +14,8 @@ const Booking = () => {
       <div className="booking-outer">
         <div className="container">
           <div className="booking">
-            <p className="page-title">SEE OUR PRODUCTS</p>
-            <div className="search-filter">
-              {/* <LiveSearch /> */}
-              {/* <Filter
-                type={type}
-                setType={setType}
-                setPage={setPage}
-                handleReset={handleReset}
-              /> */}
-            </div>
+            <p className="page-title">SEE OUR TRIPS</p>
+
             <TripList />
           </div>
         </div>

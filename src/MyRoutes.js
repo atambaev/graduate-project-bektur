@@ -16,32 +16,38 @@ import List from "./components/Admin/List/List";
 import Add from "./components/Admin/Add/Add";
 import Edit from "./components/Admin/Edit/Edit";
 import TripDetail from "./pages/TripDetail/TripDetail";
+import Payment from "./pages/Payment/Payment";
+import Invoice from "./pages/Invoice/Invoice";
+import ResetPassword from "./pages/ResetPassword/ResetPassword";
+import { useAuth } from "./contexts/AuthContextProvider";
 
 const MyRoutes = () => {
+  const { currentUser } = useAuth();
   return (
     <Routes>
       <Route element={<MainLayot />}>
         <Route path="/" element={<Home />} />
         <Route path="/booking" element={<Booking />} />
         <Route path="/discover" element={<Discover />} />
-        <Route path="/trips" element={<MyTrips />} />
+        {/* <Route path="/trips" element={<MyTrips />} /> */}
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/detail" element={<TripDetail />} />
+        <Route path="/booking/detail/:prodId" element={<TripDetail />} />
         <Route
           path="/admin"
           element={
-            <RequireAuth>
-              <Admin />
-            </RequireAuth>
+            <RequireAuth>{currentUser.isAdmin && <Admin />}</RequireAuth>
           }
         >
           <Route index element={<List />} />
           <Route path="add" element={<Add />} />
           <Route path="edit/:id" element={<Edit />} />
         </Route>
+        <Route path="/payment" element={<Payment />} />
+        <Route path="/invoice" element={<Invoice />} />
+        <Route path="reset" element={<ResetPassword />} />
         <Route path="/*" element={<ErrorPage />} />
       </Route>
     </Routes>

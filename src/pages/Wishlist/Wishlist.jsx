@@ -9,7 +9,6 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { useFav } from "../../contexts/FavContextProvider";
 import Header from "../../components/Header/Header";
-import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 
 const Fav = () => {
   const { fav, getFav, deleteTripInFav } = useFav();
@@ -98,7 +97,7 @@ const Fav = () => {
               component={Link}
               to="/booking"
             >
-              Return to shop
+              Return to trips
             </Button>
           </div>
         )}

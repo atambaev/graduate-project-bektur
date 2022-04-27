@@ -1,7 +1,8 @@
 import { Button, Container, Link, InputLabel, Typography } from "@mui/material";
 import React, { useState } from "react";
-import { notify } from "../components/Toastify/Toastify";
-import { useAuth } from "../contexts/AuthContextProvider";
+import Header from "../../components/Header/Header";
+import { notify } from "../../components/Toastify/Toastify";
+import { useAuth } from "../../contexts/AuthContextProvider";
 
 function Copyright(props) {
   return (
@@ -20,26 +21,35 @@ function Copyright(props) {
   );
 }
 const Login = () => {
-  const { forgotPassword } = useAuth();
+  const { resetPass } = useAuth();
   const [inpVal, setInpVal] = useState("");
 
   const handleSend = () => {
     if (!inpVal) {
       notify("error", "Fill the field");
     } else {
-      forgotPassword(inpVal);
+      resetPass(inpVal);
       notify("success", "Sent to your email.");
       setInpVal("");
     }
   };
   return (
-    <div style={{ margin: "auto" }}>
-      <Container>
+    <div className="back-img">
+      <Header />
+      <div
+        style={{
+          margin: "auto",
+          display: "flex",
+          justifyContent: "center",
+          textAlign: "center",
+        }}
+      >
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             justifyContent: "center",
+            textAlign: "center",
             alignItems: "center",
             maxWidth: "200px",
             padding: "30px",
@@ -58,13 +68,16 @@ const Login = () => {
             style={{
               height: "30px",
               width: "300px",
+              border: "none",
+              borderRadius: "10px",
             }}
             value={inpVal}
             onChange={(e) => setInpVal(e.target.value)}
           ></input>
           <Button
             onClick={handleSend}
-            variant="contained"
+            className="btn-all"
+            variant="outlined"
             style={{
               height: "30px",
               width: "300px",
@@ -75,7 +88,7 @@ const Login = () => {
           </Button>
           <Copyright sx={{ mt: 5 }} />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };

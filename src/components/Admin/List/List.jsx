@@ -45,13 +45,16 @@ const List = () => {
               <TableRow>
                 <TableCell sx={{ fontWeight: "bold" }}>Title</TableCell>
                 <TableCell sx={{ fontWeight: "bold" }} align="center">
-                  Type
+                  Region
                 </TableCell>
                 <TableCell sx={{ fontWeight: "bold" }} align="right">
                   Image
                 </TableCell>
                 <TableCell sx={{ fontWeight: "bold" }} align="right">
                   Price
+                </TableCell>
+                <TableCell sx={{ fontWeight: "bold" }} align="right">
+                  Date
                 </TableCell>
                 <TableCell sx={{ fontWeight: "bold" }} align="right">
                   Actions
@@ -72,6 +75,7 @@ const List = () => {
                     <img width="40px" src={item.img} alt={item.title} />
                   </TableCell>
                   <TableCell align="right">{item.price}</TableCell>
+                  <TableCell align="right">{item.date}</TableCell>
                   <TableCell align="right">
                     <IconButton onClick={() => handleDelete(item)}>
                       <DeleteIcon />

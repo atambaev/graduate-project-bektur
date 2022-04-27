@@ -8,7 +8,7 @@ import "./Admin.scss";
 const Admin = () => {
   const { pathname } = useLocation();
   return (
-    <div className="back-img">
+    <div className="back-img1">
       <Header />
       <Container maxWidth="lg">
         {pathname !== "/admin/add" ? (
