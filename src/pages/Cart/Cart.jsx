@@ -89,9 +89,11 @@ const Cart = () => {
                         {elem.count}
 
                         <IconButton
-                          onClick={() =>
-                            changeTripCount(elem.count - 1, elem.item.id)
-                          }
+                          onClick={() => {
+                            elem.count > 0
+                              ? changeTripCount(elem.count - 1, elem.item.id)
+                              : deleteTripInCart(elem.item.id);
+                          }}
                         >
                           <RemoveIcon />
                         </IconButton>
@@ -122,10 +124,6 @@ const Cart = () => {
           </>
         ) : (
           <div style={{ textAlign: "center" }}>
-            {/* <RemoveShoppingCartOutlinedIcon
-              color="action"
-              sx={{ fontSize: 100 }}
-            /> */}
             <h2>Cart is empty</h2>
             <br />
             <br />

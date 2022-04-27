@@ -9,7 +9,7 @@
       "type": "Osh",
       "img": "https://static.wixstatic.com/media/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.webp",
       "description": "On the way to the Kyzyl Asker valley we passed this spectacular landscape with a little yurt in front of it. Local families spend the whole summer in just their yurt and the wilderness to take care of the cattle. This was one of the last forms of civilisation we saw before going to Kyzyl Asker. ",
-      "count": 3
+      "count": 6
     },
     {
       "title": "Barskoon",
@@ -56,17 +56,17 @@
       "type": "Chüy",
       "price": 4000,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_31941f60eed54ef585b9abfcd3382043~mv2_d_1920_1284_s_2.jpg/v1/fill/w_1480,h_990,al_c,q_90/846d71_31941f60eed54ef585b9abfcd3382043~mv2_d_1920_1284_s_2.webp",
       "date": "12.05.2022-24.05.2022",
       "id": 6,
       "count": 1
     },
     {
-      "title": "Kadamjay",
+      "title": "Kozu-Baglan",
       "type": "Batken",
       "price": 11000,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_e3ddc58d9b204ce0b7401df582fd1cf0~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_e3ddc58d9b204ce0b7401df582fd1cf0~mv2_d_1920_1281_s_2.webp",
       "date": "26.05.2022-31.05.2022",
       "id": 7,
       "count": 1
@@ -75,8 +75,8 @@
       "title": "Arslanbab",
       "type": "Jalal-Abad",
       "price": 17000,
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "description": "Arslanbob is known for its big walnut forest. Its the biggest walnut forest in the world and looks beautiful in early summer with flowers everywhere. This is an area we really have to protect, as I came to know that the walnut forest is not doing that great. Its being over harvested and cattle is ruining the new plants. This is something I would like to point out here and hope will be addressed in the near future.\n\n \n\nThis forest reminded me a bit of the beautiful forests we have in the Netherlands. I really didn’t know that Kyrgyzstan had forests like this and it’s in big contrast with the rest of the country. Everything in this area was very green, a lot like Europe. The village is built on a hill with narrow dirt roads leading you up to the top of the village. The village is surrounded by huge peaks where you can hike for days. ",
+      "img": "https://static.wixstatic.com/media/846d71_ad06a21ac80c4cf181aa791b76935313~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_ad06a21ac80c4cf181aa791b76935313~mv2_d_1920_1281_s_2.webp",
       "date": "08.07.2022-13.07.2022",
       "id": 8,
       "count": 1
@@ -86,7 +86,7 @@
       "type": "Chüy",
       "price": 13000,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_07ab748c99dc45f6b6a994e2ff33ecfd~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_07ab748c99dc45f6b6a994e2ff33ecfd~mv2_d_1920_1281_s_2.webp",
       "date": "01.05.2022-10.05.2022",
       "id": 9,
       "count": 1
@@ -96,7 +96,7 @@
       "type": "Batken",
       "price": 15500,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_93afdbe48582414b9ebd3b30580718a6~mv2_d_1920_1280_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_93afdbe48582414b9ebd3b30580718a6~mv2_d_1920_1280_s_2.webp",
       "date": "06.07.2022-12.07.2022",
       "id": 10,
       "count": 1
@@ -106,7 +106,7 @@
       "type": "Talas",
       "price": 13700,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_9d2253a3fac94ac78190e77450d44cc3~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_9d2253a3fac94ac78190e77450d44cc3~mv2_d_1920_1281_s_2.webp",
       "date": "08.07.2022-13.07.2022",
       "id": 11,
       "count": 1
@@ -116,7 +116,7 @@
       "type": "Naryn",
       "price": 24000,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_c48c5638e9864baaa3e2423aa8179c17~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_c48c5638e9864baaa3e2423aa8179c17~mv2_d_1920_1281_s_2.webp",
       "date": "17.07.2022-23.07.2022",
       "id": 12,
       "count": 1
@@ -126,7 +126,7 @@
       "type": "Talas",
       "price": 14500,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_334151a405e5471d9df165e924c5eb99~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_334151a405e5471d9df165e924c5eb99~mv2_d_1920_1281_s_2.webp",
       "date": "08.07.2022-13.07.2022",
       "id": 13,
       "count": 2
@@ -136,7 +136,7 @@
       "type": "Naryn",
       "price": 19000,
       "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "",
+      "img": "https://static.wixstatic.com/media/846d71_482d14e93afc4bfb92702ba7e5a2532e~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_482d14e93afc4bfb92702ba7e5a2532e~mv2_d_1920_1281_s_2.webp",
       "date": "18.07.2022-27.07.2022",
       "id": 14,
       "count": 1
@@ -147,12 +147,6 @@
       "id": 1,
       "body": "some comment",
       "postId": 1
-    },
-    {
-      "comment": "bvbnm",
-      "user": "admin@gmail.com",
-      "prodId": "1",
-      "id": 4
     }
   ]
 }
