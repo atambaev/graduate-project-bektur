@@ -9,7 +9,7 @@
       "type": "Osh",
       "img": "https://static.wixstatic.com/media/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_1d4d74db0187480b82aec9bd67a6c812~mv2.webp",
       "description": "On the way to the Kyzyl Asker valley we passed this spectacular landscape with a little yurt in front of it. Local families spend the whole summer in just their yurt and the wilderness to take care of the cattle. This was one of the last forms of civilisation we saw before going to Kyzyl Asker. ",
-      "count": 6
+      "count": 10
     },
     {
       "title": "Barskoon",
@@ -79,7 +79,7 @@
       "img": "https://static.wixstatic.com/media/846d71_ad06a21ac80c4cf181aa791b76935313~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_ad06a21ac80c4cf181aa791b76935313~mv2_d_1920_1281_s_2.webp",
       "date": "08.07.2022-13.07.2022",
       "id": 8,
-      "count": 1
+      "count": 2
     },
     {
       "title": "Kemin",
@@ -122,16 +122,6 @@
       "count": 1
     },
     {
-      "title": "Kara-Buura",
-      "type": "Talas",
-      "price": 14500,
-      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur unde animi nesciunt dolores aperiam minima ratione libero praesentium at. Quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, inventore.",
-      "img": "https://static.wixstatic.com/media/846d71_334151a405e5471d9df165e924c5eb99~mv2_d_1920_1281_s_2.jpg/v1/fill/w_1480,h_987,al_c,q_90/846d71_334151a405e5471d9df165e924c5eb99~mv2_d_1920_1281_s_2.webp",
-      "date": "08.07.2022-13.07.2022",
-      "id": 13,
-      "count": 2
-    },
-    {
       "title": "Son-Kol",
       "type": "Naryn",
       "price": 19000,
@@ -140,6 +130,16 @@
       "date": "18.07.2022-27.07.2022",
       "id": 14,
       "count": 1
+    },
+    {
+      "title": "Kojo-Keleb",
+      "type": "Jalal-Abad",
+      "price": 12000,
+      "description": "After visiting Kojo-Kelen valley we drove to Arslanbob. I always love to fly my drone above the surreal landscapes of Kyrgyzstan. Turquoise lakes with interesting landscapes around allow me to go for some abstract top down-drone shots.",
+      "img": "https://static.wixstatic.com/media/846d71_e05ef1731612482087baca2430baa764~mv2_d_1920_1279_s_2.jpg/v1/fill/w_1480,h_986,al_c,q_90/846d71_e05ef1731612482087baca2430baa764~mv2_d_1920_1279_s_2.webp",
+      "count": 0,
+      "date": "08.07.2022-13.07.2022",
+      "id": 15
     }
   ],
   "comments": [

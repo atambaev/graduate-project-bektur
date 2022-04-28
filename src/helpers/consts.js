@@ -1,5 +1,8 @@
-export const API = "http://localhost:8000/trips";
-export const API2 = "http://localhost:8000/comments";
+// export const API = "http://localhost:8000/trips";
+// export const API2 = "http://localhost:8000/comments";
+
+export const API = "https://sayakat-kg.herokuapp.com/trips";
+export const API2 = "https://sayakat-kg.herokuapp.com/comments";
 
 export const ACTIONS = {
   GET_TRIPS: "GET_TRIPS",
