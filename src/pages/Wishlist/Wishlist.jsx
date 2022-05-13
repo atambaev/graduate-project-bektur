@@ -9,6 +9,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import { useFav } from "../../contexts/FavContextProvider";
 import Header from "../../components/Header/Header";
+import "./Wishlist.scss";
 
 const Fav = () => {
   const { fav, getFav, deleteTripInFav } = useFav();
@@ -28,23 +29,6 @@ const Fav = () => {
         WISHLIST
       </h1>
 
-      {/* <IconButton onClick={() => navigate(-1)}>
-        <ArrowBackIosNewIcon fontSize="large" />
-      </IconButton> */}
-      <br />
-      {/* <NavLink
-        style={{
-          textDecoration: "none",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-        to="/booking"
-      >
-        <Button style={{}} variant="contained">
-          Go to shop
-        </Button>
-      </NavLink> */}
       <Container
         style={{
           display: "flex",
@@ -55,7 +39,11 @@ const Fav = () => {
         {fav?.trips?.length > 0 ? (
           <>
             {fav.trips.map((elem) => (
-              <Card style={{ margin: "10px 0" }} sx={{ maxWidth: 345 }}>
+              <Card
+                className="wish-card"
+                style={{ margin: "10px 0" }}
+                sx={{ maxWidth: 345 }}
+              >
                 <CardMedia
                   component="img"
                   height="140"
